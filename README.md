@@ -1,4 +1,4 @@
-# ADBC Driver for Microsoft SQL Server
+# ADBC Driver for Amazon Redshift
 
 This project is not affiliated with AWS.
 
