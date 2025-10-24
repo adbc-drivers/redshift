@@ -1,0 +1,5 @@
+Columnar ADBC Driver for Microsoft SQL Server
+Copyright 2025 Columnar Technologies Inc.
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
