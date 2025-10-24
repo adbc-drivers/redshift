@@ -7,7 +7,8 @@ Not affiliated with AWS.
 This project is made available under the **Permissive Binary License (“PBL”)**
 Version 1.0. This means you are free to use, distribute, and integrate the
 compiled binaries of this project in your own products—including commercial
-ones—provided you adhere to the conditions of the license. See [LICENSE.txt].
+ones—provided you adhere to the conditions of the license. See
+[LICENSE.txt](license.txt).
 
 The source code for this project is private and is not included in this
 repository. This repo is provided only for issue tracking, documentation, and
