@@ -1,0 +1,27 @@
+name: Enhancement/Feature Request
+description: Suggest something that could be made better, or a new feature.
+labels: ["enhancement"]
+type: "feature"
+body:
+  - type: input
+    id: driver-version
+    attributes:
+      label: Driver Version
+      description: What version of the ADBC driver are you using?
+      placeholder: e.g. v1.0.0
+    validations:
+      required: false
+  - type: input
+    id: vendor-version
+    attributes:
+      label: Redshift Version
+      description: What version of Amazon Redshift are you using?
+      placeholder: e.g. Serverless Patch 184, Managed Cluster Patch 184
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: What feature or improvement would you like to see?
+    validations:
+      required: false

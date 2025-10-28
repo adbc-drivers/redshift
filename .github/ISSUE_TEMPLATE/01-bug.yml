@@ -1,0 +1,55 @@
+name: Bug Report
+description: For when something went wrong.
+labels: ["bug"]
+type: "bug"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for filing a bug report.
+  - type: input
+    id: driver-version
+    attributes:
+      label: Driver Version
+      description: What version of the ADBC driver are you using?
+      placeholder: e.g. v1.0.0
+    validations:
+      required: false
+  - type: input
+    id: vendor-version
+    attributes:
+      label: Redshift Version
+      description: What version of Amazon Redshift are you using?
+      placeholder: e.g. Serverless Patch 184, Managed Cluster Patch 184
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: stack-trace
+    attributes:
+      label: Stack Trace
+      description: Please provide a stack trace if possible.  This will be automatically formatted into code, so there is no need for backticks.
+      render: shell
+    validations:
+      required: false
+  - type: textarea
+    id: repro
+    attributes:
+      label: How can we reproduce the bug?
+      description: For example, can we access the dataset? Is there code that reproduces it?
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment/Setup
+      description: |
+        Tell us about other packages, operating system, and any other details about your environment.
+    validations:
+      required: false

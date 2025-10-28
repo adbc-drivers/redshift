@@ -1,0 +1,11 @@
+name: Question
+description: Ask a general question.
+labels: ["question"]
+type: "question"
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What would you like help with?
+    validations:
+      required: true
