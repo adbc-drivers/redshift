@@ -20,7 +20,11 @@ Pre-packaged builds of the ADBC driver for Amazon Redshift have been made
 available for various platforms from the [Columnar](https://columnar.tech)
 CDN. These can be installed by any tool that supports
 [ADBC](https://arrow.apache.org/adbc/) Driver Manifests, such as
-[dbc](https://columnar.tech/dbc).
+[dbc](https://columnar.tech/dbc):
+
+```sh
+dbc install redshift
+```
 
 ## Usage
 
